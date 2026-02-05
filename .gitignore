@@ -1,0 +1,17 @@
+# Folder hasil instalasi (Sangat Berat)
+node_modules/
+venv/
+.env
+
+# Folder hasil build Next.js
+.next/
+out/
+
+# Database Lokal (Agar tidak duplikat di GitHub)
+*.db
+backend/inventory.db
+
+# File Python yang tidak perlu
+__pycache__/
+*.pyc
+.pytest_cache/
